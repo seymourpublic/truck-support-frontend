@@ -18,8 +18,7 @@ export function SubmitTicket() {
 
   const handleSubmit = async (e) => {
     e.preventDefault();
-    
-    // API URL (Change to your Railway Deployment URL)
+
     const API_URL = "https://truck-support-api-production.up.railway.app/tickets";
 
     try {
